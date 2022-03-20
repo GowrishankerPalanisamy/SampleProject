@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="tests.LoginTest">
+        <parameter name="baseUrl" value="https://reference-test.intellisense.io/"/>
+        <parameter name="userName" value="menna+testproject@intellisense.io"/>
+        <parameter name="password" value="AutMaNewTest1#"/>
+        <parameter name="dashboardUrl" value="https://reference-test.intellisense.io/#!/id/dashboards/1471"/>
+        <parameter name="CalendarFrom" value="Nov 2, 2021 11:35 AM GMT"/>
+        <parameter name="CalendarTo" value="Feb 14, 2022 12:35 PM GMT"/>
+        <parameter name="addValue" value="25"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>

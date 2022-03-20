@@ -1,0 +1,5 @@
+pages\BasePage.class
+tests\BaseTest.class
+tests\LoginTest.class
+pages\DashBoardPage.class
+pages\LoginPage.class

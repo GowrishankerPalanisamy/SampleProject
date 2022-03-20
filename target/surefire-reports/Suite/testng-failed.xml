@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="tests.LoginTest(failed)">
+    <parameter name="baseUrl" value="https://reference-test.intellisense.io/"/>
+    <parameter name="password" value="AutMaNewTest1#"/>
+    <parameter name="dashboardUrl" value="https://reference-test.intellisense.io/#!/id/dashboards/1471"/>
+    <parameter name="CalendarTo" value="Feb 14, 2022 12:35 PM GMT"/>
+    <parameter name="CalendarFrom" value="Nov 2, 2021 11:35 AM GMT"/>
+    <parameter name="userName" value="menna+testproject@intellisense.io"/>
+    <parameter name="addValue" value="25"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="validateAddedData" invocation-numbers="0"/>
+          <include name="navigateToDashboard" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="initiateSetup"/>
+          <include name="setup"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- tests.LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
